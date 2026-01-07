@@ -1,0 +1,89 @@
+*{
+    color: #faf9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom ,black ,rgb(52, 63, 63) );
+    height: 100%;
+    padding-top: 40px 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.page{
+}
+.main {
+    text-align: center;
+    padding: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: #15181F;
+    box-shadow: 1px 2px 1px black;
+    padding-bottom: 40px;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+.main a , .cards a{
+    text-decoration-line: none;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-top: 40px;
+    transition:  0.5s;
+}
+.main a:hover , .cards a:hover{
+    opacity: 0.8;
+}
+h1  {
+text-align: center;
+
+}
+.cards div{
+    border-radius: 15px;
+    background-color: #15181F;
+    text-align: center;
+    margin-bottom:40px ;
+    padding: 30px;
+    width: 220px;
+    height: 150px;
+    transition: 1s;
+    
+    box-shadow: 1px 2px 3px black;
+}
+.skills{
+    text-align: center;
+    margin-top: 60px;
+    
+    
+}
+p{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px; 
+    box-shadow: 1px 2px 10px rgb(51, 51, 51);
+    padding-top: 30px;
+    margin: 50px;
+    border-radius: 15px;
+}
+.cards a {
+    border-radius: 15px;
+    background-color: teal;
+}
+.main a{
+        color: black;
+}
+.cards div:hover{
+    transform: scale(1.2);
+}
